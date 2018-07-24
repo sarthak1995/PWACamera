@@ -10,7 +10,7 @@
         "/PWACamera/favicon.ico",
         "/PWACamera/index.html",
         "/PWACamera/inline.318b50c57b4eba3d437b.bundle.js",
-        "/PWACamera/main.0a690dd76a4bcdb3739e.bundle.js",
+        "/PWACamera/main.2c8e8bed2ab57d8732b0.bundle.js",
         "/PWACamera/polyfills.50b851ccd19aa9b94ce1.bundle.js",
         "/PWACamera/styles.ac89bfdd6de82636b768.bundle.css"
       ],
@@ -27,9 +27,9 @@
   "dataGroups": [],
   "hashTable": {
     "/PWACamera/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
-    "/PWACamera/index.html": "d0455f1e83094dfb24b56f3388ead113e5351ec2",
+    "/PWACamera/index.html": "1179a202613eab2a450e06417b5e50cf8e56848f",
     "/PWACamera/inline.318b50c57b4eba3d437b.bundle.js": "998c6060446975e566fd17509558ddc68d72eec3",
-    "/PWACamera/main.0a690dd76a4bcdb3739e.bundle.js": "11eeae551b1c0f8abc69ee7af313016818c97532",
+    "/PWACamera/main.2c8e8bed2ab57d8732b0.bundle.js": "5f2090d345728fc587a4b6a407dee2275aca81d6",
     "/PWACamera/polyfills.50b851ccd19aa9b94ce1.bundle.js": "106347cf1a53b1dceace39e0d83e6b93936bb95b",
     "/PWACamera/styles.ac89bfdd6de82636b768.bundle.css": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
   },
