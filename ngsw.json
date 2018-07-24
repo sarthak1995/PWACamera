@@ -1,0 +1,54 @@
+{
+  "configVersion": 1,
+  "index": "/PWACamera/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "/PWACamera/favicon.ico",
+        "/PWACamera/index.html",
+        "/PWACamera/inline.318b50c57b4eba3d437b.bundle.js",
+        "/PWACamera/main.0a690dd76a4bcdb3739e.bundle.js",
+        "/PWACamera/polyfills.50b851ccd19aa9b94ce1.bundle.js",
+        "/PWACamera/styles.ac89bfdd6de82636b768.bundle.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/PWACamera/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
+    "/PWACamera/index.html": "d0455f1e83094dfb24b56f3388ead113e5351ec2",
+    "/PWACamera/inline.318b50c57b4eba3d437b.bundle.js": "998c6060446975e566fd17509558ddc68d72eec3",
+    "/PWACamera/main.0a690dd76a4bcdb3739e.bundle.js": "11eeae551b1c0f8abc69ee7af313016818c97532",
+    "/PWACamera/polyfills.50b851ccd19aa9b94ce1.bundle.js": "106347cf1a53b1dceace39e0d83e6b93936bb95b",
+    "/PWACamera/styles.ac89bfdd6de82636b768.bundle.css": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^\\/]*\\.[^\\/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^\\/]*__[^\\/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^\\/]*__[^\\/]*\\/.*$"
+    }
+  ]
+}
