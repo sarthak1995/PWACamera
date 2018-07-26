@@ -7,7 +7,7 @@ import { Routes, RouterModule } from '@angular/router';
 
 const routes: Routes = [
   {
-    path: 'hanger',
+    path: 'hangar',
     component: HangerComponent
   },
   {

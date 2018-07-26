@@ -4,10 +4,10 @@
 <mat-sidenav-container class="example-container">
   <mat-sidenav #sidenav mode="push" width="250px" class="mat-sidenav">
     <mat-list>
-      <mat-list-item>
+      <mat-list-item routerLink='/hangar' (click)="sidenav.toggle()">
         Hangar
       </mat-list-item>
-      <mat-list-item>
+      <mat-list-item routerLink='/eTasks' (click)="sidenav.toggle()">
         eTasks
       </mat-list-item>
     </mat-list>
