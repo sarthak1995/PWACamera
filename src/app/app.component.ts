@@ -19,14 +19,15 @@ export class AppComponent implements OnInit {
     const reader = new FileReader();
     if (event.target.files && event.target.files.length > 0) {
       const file = event.target.files[0];
+      const form = this.itemForm;
       reader.readAsDataURL(file);
-      reader.onload = () => {
-        this.itemForm.get('itemPhoto').setValue({
+      reader.onload = (function () {
+        form.get('itemPhoto').setValue({
           filename: file.name,
           filetype: file.type,
           value: reader.result.split(',')[1]
         });
-      };
+      });
     }
 
   }
@@ -41,7 +42,7 @@ export class AppComponent implements OnInit {
 
   formSubmit() {
     console.log(this.itemForm.value);
-    this.appService.uploadItem(this.itemForm.value).subscribe((result) => {
+    this.appService.uploadItem(this.itemForm.value).subscribe(function (result) {
       console.log(result);
 
     });
