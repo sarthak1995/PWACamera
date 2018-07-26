@@ -13,7 +13,8 @@
                     "/*.bundle.css",
                     "/*.bundle.js",
                     "/*.chunk.js"
-                ]
+                ],
+                
             }
         },
         {
